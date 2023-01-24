@@ -37,8 +37,8 @@
 
 ## 2. Запуск автотестов
 1. В IntelliJ IDEA дважды нажать Ctrl и в командной строке «Run Anything» выполнить одну из команд в зависимости от выбранной СУБД:
-**MySQL:** `./gradlew clean test -Ddb.url=jdbc:mysql://localhost:3306/app`
-**PostgreSQL:** `./gradlew clean test -Ddb.url=jdbc:postgresql://localhost:5432/app`
+- **MySQL:** `./gradlew clean test -Ddb.url=jdbc:mysql://localhost:3306/app`
+- **PostgreSQL:** `./gradlew clean test -Ddb.url=jdbc:postgresql://localhost:5432/app`
 
 ## 3. Создание отчёта Allure
 1. В IntelliJ IDEA дважды нажать `Ctrl` и в командной строке «Run Anything» выполнить команду:
